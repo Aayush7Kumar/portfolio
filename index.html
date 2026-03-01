@@ -52,16 +52,16 @@
         >
             <span class="custom-toggler-icon">&#x2630;</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto" id="navbar-scrolled-font">
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="#about"
-                ><i class="fa-solid fa-address-card"></i> About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#publications"><i class="fa-solid fa-newspaper"></i> Publications</a>
-            </li>
+	        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	          <ul class="navbar-nav ms-auto" id="navbar-scrolled-font">
+	            <li class="nav-item ">
+	              <a class="nav-link" aria-current="page" href="#about"
+	                ><i class="fa-solid fa-address-card"></i> About</a
+	              >
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link active" href="#publications"><i class="fa-solid fa-newspaper"></i> Publications</a>
+	            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -107,19 +107,11 @@
               <div class="intro-head">
                 <div class="intro">
                   <svg viewbox="0 0 700 225">
-                    <clipPath id="textClip" class="filled-heading">
-                      <text y="70">Hello!</text>
-                      <text y="140">I am</text>
-                      <text y="210">Aayush Kumar</text>
-
-                      <text y="70">A</text>
-                      <text y="140">Passionate</text>
-                      <text y="210">Data Engineer</text>
-
-                      <text y="70">An</text>
-                      <text y="140">Electrical</text>
-                      <text y="210">Engineer</text>
-                    </clipPath>
+	                    <clipPath id="textClip" class="filled-heading">
+	                      <text y="70">Hello!</text>
+	                      <text y="140">I am</text>
+	                      <text y="210">Aayush Kumar</text>
+	                    </clipPath>
 
                     <g id="background" clip-path="url(#textClip)">
                       <path
@@ -349,65 +341,105 @@
             </div>
             <div class="col-lg-6 intro-col">
               <div class="intro-img">
-                <img src="./images/nobg2.png" />
+                <img src="./images/profile.jpg" alt="Aayush Kumar" class="profile-photo" />
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- About Me -->
+	      </div>
+	      <!-- About Me -->
 
-      <div id="about">
-        <div class="container">
-          <div class="about">
-            <div class="head-mdm">About Me <i class="fa-solid fa-face-smile"></i></div>
-            <div class="about-container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="about-para">
-                    <p>
-                      <blockquote style="text-align: center; !important"><i>I have no special talent. I am only passionately curious."
- -Albert Einstein.</i>"</blockquote>
-                      Welcome to my profile! I explore the intersection between electrical engineering and data science/engineering. My journey began at the Vellore Institute of Technology, India, where I honed my Electrical and Electronics Engineering skills, paving the way for my later adventures in data engineering and machine learning. My academic journey was marked by a strong CGPA, but it was outside the classroom where I truly found my calling. I'm currently working as a data engineer at Ground Signal, a mid-stage startup in New York. It's been an awesome ride creating some cool data solutions, like building ETL pipelines and a recommendation engine. Some of these projects have been game-changers in the industry and have helped the business grow. Previously, as a Business Analyst at Enverus, India, I focused on enhancing the data quality while researching potential solutions to improve the process further. My passion for technology extends beyond the professional sphere. As the Team Manager of Technocrats Robotics during my university days, I led a team of dedicated individuals in creating robots. This experience significantly impacted where I am now and my future goals. When I'm not geeking out, you'll find me roaming the streets of New York with my camera or lending a hand through volunteering. I also love to blog about on Kaggle and my personal site.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+	      <div id="about">
+	        <div class="container">
+	          <div class="about">
+	            <div class="head-mdm">About Me <i class="fa-solid fa-face-smile"></i></div>
+	            <div class="about-container">
+	              <div class="row">
+	                <div class="col-lg-12">
+	                  <div class="about-para">
+	                    <p>
+	                      I'm currently a Data Engineer at Verily (previously known as Google Life Sciences). Prior to this, I spent 3+ years at a tiny startup where I learned that everyone wants to be the chef, but someone has to keep the knives sharp and the kitchen running. I like being that person. I believe most data problems are design problems in disguise, and I’d rather get that right than rush to the flashy stuff.
+	                    </p>
+	                  </div>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
 
-      <!-- Experience -->
-      <div id="experience">
-        <div class="container">
-          <div class="experience">
+	      <!-- Experience -->
+	      <div id="experience">
+	        <div class="container">
+	          <div class="experience">
             <div class="head-mdm">Work Experience <i class="fa-solid fa-laptop-code"></i></div>
-            <div class="blog-card" data-aos="fade-right">
-              <div class="meta">
-                <div
-                  class="photo photo-1  photo-2"
-                  style="
-                    background-image: url(./images/experience/GS-icon-black\ \(1\).webp);
-                  "
-                ></div>
-              </div>
-              <div class="description">
-                <h1>Data Engineer</h1>
-                <h2>Ground Signal, Newyork, United States (Aug 2022 - Present)</h2>
-                <p>
-                  <ul>
-                      <li>Implemented ETL pipelines to ingest client sales data, processing records in the order of millions</li>
-                      <li>Led & conducted research for development of a recommendation engine for similar restaurants, utilizing vectors and vector databases, and PCA for dimensionality reduction</li>
-                      <li>Spearheaded a database update project employing Human-in-the-loop (HITL) technique to distinguish between restaurant name and identity changes, achieving 89% accuracy, saving approximately 250 hours of human labor</li>
-                      <li>Developed Prefect pipelines & Python modules to handle custom client requests, reducing redundancy across the team</li>
-                      <li>Created internal dashboards for the Business Development team and to monitor data quality using Preset and Jinja</li>
-                      <li>Translated client needs to technical specifications; facilitated data export to Business Intelligence team for business value</li>
-                    </ul>
+	            <div class="blog-card" data-aos="fade-right">
+	              <div class="meta">
+	                <div
+	                  class="photo photo-1"
+	                  style="
+	                    background-image: url(./images/experience/verily.png);
+	                  "
+	                ></div>
+	              </div>
+	              <div class="description">
+	                <h1>Data Engineer III</h1>
+	                <h2>Verily (Alphabet), San Bruno, CA (Dec 2025 - Present)</h2>
+	                <p>
+	                  <ul>
+	                      <li>Designing the data architecture for Verily Me app clickstream analytics including ingestion, compliance registration, and dbt modeling (staging, intermediate, marts) in BigQuery with TDD.</li>
+	                      <li>Leading cost and performance optimization of the dbt/BigQuery stack, replacing view-only intermediate layers with materialized incremental models, redesigning partition and clustering framework from query profiling.</li>
+	                      <li>Architecting an AI context layer using sub-agents, custom skills, and hooks that dynamically aggregates project context from Jira and Confluence via MCP, and the codebase for AI-assisted engineering across the team.</li>
+	                    </ul>
 
-                </p>
-              </div>
-            </div>
+	                </p>
+	              </div>
+	            </div>
+	            <div class="blog-card" data-aos="fade-right">
+	              <div class="meta">
+	                <div
+	                  class="photo photo-1  photo-2"
+	                  style="
+	                    background-image: url(./images/experience/GS-icon-black\ \(1\).webp);
+	                  "
+	                ></div>
+	              </div>
+	              <div class="description">
+	                <h1>Data Engineer</h1>
+	                <h2>Ground Signal (~20 employees), Manhattan, NY (Aug 2022 - Dec 2025)</h2>
+	                <p>
+	                  <ul>
+	                      <li><b>Software Architecture &amp; Shared Libraries</b>
+	                        <ul>
+	                          <li>Designed a service registry with dependency injection and strategy-pattern dispatch across 11 pipeline implementations, centralizing how flows access database connections, services, and catalogs.</li>
+	                          <li>Built database clients for PostgreSQL (COPY protocol, generator-based streaming, transactional context managers) and ClickHouse (connection lifecycle, bulk loading), with type-safe query results via Pydantic.</li>
+	                          <li>Designed a shared AI service module: 50-thread ThreadPoolExecutor with order-preserving result collection, S3-backed distributed cache with SHA256 keys, exponential backoff, and NewRelic cost/cache-hit tracking.</li>
+	                        </ul>
+	                      </li>
+	                      <li><b>Systems &amp; Pipeline Architecture</b>
+	                        <ul>
+	                          <li>Designed and built end-to-end ingestion pipelines (Python, SQL, Prefect) processing 500M+ versioned records from S3/PostgreSQL into ClickHouse (OLAP DB), with DAG-based execution, stage-level concurrency, fault tolerance, and idempotent reruns for incremental backfill.</li>
+	                          <li>Implemented probabilistic entity resolution using the Fellegi–Sunter model via Splink, blocking rules for O(n<sup>2</sup>) reduction, Jaro-Winkler and Damerau-Levenshtein similarity, threshold tuning, and transitive clustering.</li>
+	                          <li>Built an embeddings-based recommendation system end-to-end, with venue vectorization, similarity retrieval, and ranking integration into the production serving layer.</li>
+	                        </ul>
+	                      </li>
+	                      <li><b>Database Engineering &amp; Performance</b>
+	                        <ul>
+	                          <li>Designed 300+ database models across a medallion architecture, implementing star schemas, slowly changing dimensions, and normalization/denormalization trade-offs for batch processing and low-latency API reads.</li>
+	                          <li>Diagnosed resource contention between batch and serving workloads. Split ClickHouse into separate instances with a controlled publish step, SCD2 snapshots, and partition/join alignment to query patterns, cutting API latencies by 2–8×.</li>
+	                        </ul>
+	                      </li>
+	                      <li><b>Reliability Engineering &amp; Testing</b>
+	                        <ul>
+	                          <li>Built an automated regression testing framework comparing extraction output against production baselines, surfacing accuracy metrics for human-in-the-loop review.</li>
+	                          <li>Implemented structured logging, health monitoring, and alerting to proactively surface pipeline failures, schema drift, and infrastructure degradation.</li>
+	                        </ul>
+	                      </li>
+	                    </ul>
+
+	                </p>
+	              </div>
+	            </div>
             <div class="blog-card alt" data-aos="fade-left">
               <div class="meta">
                 <div
@@ -417,46 +449,21 @@
                   "
                 ></div>
               </div>
-              <div class="description">
-                <h1>Business Analyst</h1>
-                <h2>Enverus, India (Aug 2021 - June 2022)</h2>
-                <p>
-                  <ul>
-                    <li>
-                       Conducted data research on global oil & gas assets, historic reserves and production maintaining over 95% data quality
-                    </li>
-                    <li>
-                      Reduced project time by about 50% by automating satellite image capture of oil wells via web scraping & automation
-                    </li>
-                    <li>
-                      Researched the potential use of multivariate regression to impute missing historic depth data for oil wells
-                    </li>
-                  </ul>
+	              <div class="description">
+	                <h1>Business Analyst</h1>
+	                <h2>Enverus (SaaS MNC), Bengaluru, India (Jul 2021 - Jun 2022)</h2>
+	                <p>
+	                  <ul>
+	                    <li>
+	                       Automated satellite imagery collection and web scraping in Python to accelerate asset research, cutting project turnaround time by 50%.
+	                    </li>
+	                    <li>
+	                      Conducted data research on oil and gas assets, achieving 95% accuracy in analyzing reserves and production.
+	                    </li>
+	                  </ul>
 
-                </p>
-              </div>
-            </div>
-            <div class="blog-card" data-aos="fade-right">
-              <div class="meta">
-                <div
-                  class="photo photo-1"
-                  style="
-                    background-image: url(./images/experience/Edvicer\ logo.webp);
-                  "
-                ></div>
-              </div>
-              <div class="description">
-                <h1>Digital Marketing Intern</h1>
-                <h2>Edvicer, India (May 2020 - July 2020)</h2>
-                <p>
-                  <ul>
-                      <li>Researched the potential use of multivariate regression to impute missing historic depth data for oil wells</li>
-                      <li>Initiated the first video marketing campaign for the company leading to a 25% growth in audience engagement</li>
-                      <li>Implemented email marketing funnel leading to a 15% rise in converting audience into customers</li>
-                    </ul>
-
-                </p>
-              </div>
+	                </p>
+	              </div>
             </div>
             <div class="blog-card alt" data-aos="fade-left">
               <div class="meta">
